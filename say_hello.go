@@ -7,6 +7,6 @@ type Customer struct {
 	Age           int
 }
 
-func (customer Customer) sayHello(name string) {
+func (customer Customer) SayHello(name string) {
 	fmt.Println("Hello", name, "my name is", customer.Name)
 }
